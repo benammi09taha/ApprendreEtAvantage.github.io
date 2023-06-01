@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Apprendre Et Avantage</title>
+			<link rel="stylesheet" href="css1.css">
+			<link rel="stylesheet" href="css.css">
+			<link rel="icon" type="image/jpg" href="im.jpg">
+		</head>
+		<body>
+			
+		</body>
+		</html>
+		

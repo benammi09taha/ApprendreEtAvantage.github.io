@@ -1,0 +1,49 @@
+
+h1
+	{
+	 color:#C0C0C0;
+	 font-family:Algerian;
+	text-align:center;
+	}
+table
+	{
+	background-color:#FFD700;
+	font-size:300%
+	}
+	p
+	{
+	color:#00FFFF	
+		
+	}
+h2
+	{
+	color:#00FF7F;
+	font-family:cursive	
+		
+		
+	}
+.mar
+				{
+				position:relative;	
+				top: -500px;
+				left: 800px;
+					
+				}	
+p
+				{
+				font-size:40px;
+				font-family:forte;	
+					
+				}
+img
+{
+height:300px ;
+width: 200px ;
+
+}				
+video
+{
+height: 150%;
+width: 100%;
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE  html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>bulletin de notes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<?php
+//Déclarer et initialiser les listes des coefficient et matière
+$option=['Option LCA','Option 2','Option 3'];
+$coefOption=[3,1,1];
+$matiere=['Français écrit','Français oral','Philosophie','Grand oral','Spécialité 1','Spécialité 2','Histoire-Géographie','Langue vivante A','Langue vivante B','Enseignement scientifique','EPS','Spécialité 1re','Bulletins moyens'];
+ $coeff=[5,5,8,10,16,16,5,5,5,5,5,5,10]; 
+ //initialiser la variable s qui représentera la somme   
+$s=0;
+//Calculer la somme des notes avec les pondérations
+if(isset($_POST['note']))
+{
+  for ($i=0; $i <=12 ; $i++)
+  { 
+  	$s = $s + $coeff[$i]* $_POST['note'][$i];
+  }
+  $t=0;
+}
+?>    
+</head>
+	
+	<body>
+	<table class="table table-bordered">
+	<tr><th>Matière</th><th>Note</th><th>coefficient</th><th>note pondérée</th></tr>
+	</table>
+	
+	</body>
+	</html>

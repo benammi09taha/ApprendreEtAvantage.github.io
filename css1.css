@@ -1,0 +1,75 @@
+body
+{
+	background-image:url('hh.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor:url('morocco.png'),auto;
+	
+}
+.animal
+				{
+				position:relative;
+				top:100px;
+				left: 300px;
+				
+				}
+.plantes		
+				{
+				position: relative;
+				top: -65px;
+				left: 900px;	
+					
+				}
+.inventeur		
+				{
+				position:relative;	
+				top:275px;	
+				left: 300px;	
+					
+					
+					
+				}
+.ecrivans		
+				{
+					position:relative;	
+					top:100px;
+					left: 900px	
+					
+				}
+
+mark
+				{
+				background-color:#F5FFFA;	
+				color:#66CDAA;	
+					
+				}
+li		
+				{
+				color:aqua;
+				font-size:25px;	
+				}
+a
+				{
+				color:yellowgreen;	
+				background-color:#F5FFFA;
+				font-size:25px;
+				font-family:Monotype Corsiva
+				}	
+.maths					
+				{
+				font-family:Brush Script MT;	
+				font-size:40px	
+					
+				}
+.milieu			{
+				position:relative ;
+				top: -640px;
+				left: 455px; ;
+			}
+li			
+{
+	font-family:goudy Stout ;
+	font-size: 20px;
+	
+
+}	
